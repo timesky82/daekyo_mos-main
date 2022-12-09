@@ -1,0 +1,23 @@
+{
+  "title": "제목",
+  "importance": "Imp",
+  "type": "유형",
+  "remark": "비고",
+  "search": "검색",
+  "add": "추가",
+  "export": "내보내기",
+  "reviewer": "reviewer",
+  "id": "아이디",
+  "date": "날짜",
+  "author": "작성자",
+  "readings": "Readings",
+  "status": "상태",
+  "actions": "작업",
+  "edit": "수정",
+  "publish": "Publish",
+  "draft": "Draft",
+  "delete": "삭제",
+  "cancel": "취소",
+  "confirm": "확인",
+  "name": "이름"
+}

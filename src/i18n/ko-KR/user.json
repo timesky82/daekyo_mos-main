@@ -1,0 +1,8 @@
+{
+  "adminPassword": "비밀번호",
+  "username": "아이디",
+  "password": "비밀번호",
+  "nickname": "이름",
+  "mobile": "전화번호",
+  "role": "역할"
+}

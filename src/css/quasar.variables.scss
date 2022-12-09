@@ -1,0 +1,251 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  input,
+  textarea,
+  button,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1em;
+    font-weight: normal;
+  }
+  body {
+    width: 100%;
+    color: #000;
+    font-family: "NotoSansR";
+    word-break: keep-all;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  table caption {
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999em;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  legend,
+  caption,
+  hr {
+    display: none;
+  }
+  em {
+    font-style: normal;
+  }
+  img {
+    vertical-align: top;
+  }
+  button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  input {
+    appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+  }
+  strong {
+    font-weight: normal;
+    font-family: "NotoSansB";
+  }
+  .ir {
+    position: absolute;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    font-size: 0;
+  }
+  .flex {
+    display: flex;
+  }
+}
+$primary: #0080b6;
+$secondary: #26a69a;
+$accent: #9c27b0;
+
+$dark: #1d1d1d;
+$dark-page: #121212;
+$gray: #808184;
+$positive: #44b87b;
+$negative: #f27321;
+$info: #31ccec;
+$warning: #fcb813;
+.skip_menu li a {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: -100%;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  background: #f27733;
+}
+.skip_menu li a:focus {
+  top: 0;
+}
+
+// 공통 사항
+.w100p {
+  width: 100%;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.row-3 {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+}
+.row-3 > * {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 31%;
+  margin: 10px 0;
+}
+
+.q-field--highlighted .type_00 .q-field__label {
+  display: block;
+}
