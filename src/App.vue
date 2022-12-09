@@ -1,5 +1,6 @@
 <template>
   <el-config-provider :locale="locale">
+    <!-- skip_menu -->
     <ul class="skip_menu">
       <li><a :href="$route.path + '#header'">메뉴바로가기</a></li>
       <li><a :href="$route.path + '#container'">컨텐츠 바로가기</a></li>
