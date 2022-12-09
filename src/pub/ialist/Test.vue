@@ -1,6 +1,7 @@
 <template>
   <div class="q-pa-md">
     <q-btn color="purple" @click="showLoading" label="Show Loading" />
+    <q-btn color="purple" @click="hideLoading" label="hide Loading" />
   </div>
 </template>
 
@@ -12,7 +13,6 @@ export default {
   setup() {
 
     let timer
-
     onBeforeUnmount(() => {
       if (timer !== void 0) {
         clearTimeout(timer)
@@ -22,13 +22,17 @@ export default {
 
     return {
       showLoading() {
+        console.log(Loading.isActive)
         Loading.show({
           delay: 400 // ms
         })
-        timer = setTimeout(() => {
-          Loading.hide()
-          timer = void 0
-        }, 2000)
+
+
+      },
+      hideLoading() {
+        console.log(Loading.isActive)
+        Loading.hide()
+
 
       }
     }
